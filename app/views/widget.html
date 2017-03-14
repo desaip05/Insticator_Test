@@ -1,0 +1,10 @@
+
+<div class="questionWindow" ng-class="class">
+	<div class="questionTitle">{{currQ.question.title}}</div>
+	<div class="questionOption" 
+		ng-class="{'inactive': selected!=$index, 'wrongAnswer':(selected==$index && option.title!=currQ.result.title),'rightAnswer': (selected==$index && option.title==currQ.result.title)}" 
+		ng-repeat="option in currQ.options track by $index" 
+		ng-click="optionSelected(option.title, $index)" 
+		value="{{option.title}}">{{option.title}}
+	</div>
+</div>

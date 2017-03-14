@@ -1,0 +1,20 @@
+.resultsWindow{
+	width: 296px;
+	height: 206px;
+}
+
+.resultTitle{
+	text-align: center;
+  	line-height: 75px;
+	margin: auto;
+	width: 265px;
+	height: 75px;
+}
+
+.resultItem{
+	text-align: center;
+  	line-height: 22px;
+	margin: auto;
+	width: 265px;
+	height: 22px;
+}

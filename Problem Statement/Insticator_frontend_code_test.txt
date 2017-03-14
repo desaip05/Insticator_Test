@@ -1,0 +1,25 @@
+Description
+This project is designed to test your knowledge of web technologies and assess your ability to create front­end UI products with attention to software architecture​.
+Assignment
+Create an application that allows a user to answer a set of trivia questions, keeping track of right and wrong answers.
+
+As part of this application, use at least one​ of the following frameworks to facilitate development – however you may also use any other tools to help complete the project:
+
+-AngularJS
+-Angular 2
+-Ember
+-ReactJS
+-VueJS
+
+Mandatory Features
+-The design and layout of the widget match the design in widget.png(Only question and options sections are required, color and style not necessary to be same)
+-5 questions are chosen at random from the questions.json source file to be presented to the user
+-Each trivia question and answer choices is shown in order, waiting on the user to select an answer choice before proceeding
+-The ability for the user to select an answer choice, followed by a visual indication that their choice was correct or incorrect
+-A delay of 500ms before transitioning to the next question or final result (if no more questions)
+-Once all questions are answered, the user is taken to a final result screen displaying their overall performance
+
+Bonus (Optional)
+-Any minor animation embellishments on user interaction, such as choosing an answer or when transitioning between questions
+
+When you finish the assignment, upload your project to your Git repo (Github, BitBucket, etc...) and share the repository link with your initial contact via email. Indicate which, if any, of the bonus tasks you completed.
